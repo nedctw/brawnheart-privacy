@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — BrawnHeart Auto-Post</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1c1e21;line-height:1.6}
+  h1{border-bottom:1px solid #ddd;padding-bottom:10px}
+  h2{margin-top:32px}
+  code{background:#f0f2f5;padding:2px 6px;border-radius:4px;font-size:.9em}
+  .meta{color:#65676b;font-size:.9em}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — BrawnHeart Auto-Post</h1>
+<p class="meta"><strong>Last updated:</strong> 2026-05-04</p>
+
+<p>This Privacy Policy describes how the <strong>BrawnHeart Auto-Post</strong>
+application ("the App") handles information.</p>
+
+<h2>1. Operator</h2>
+<p>The App is operated by an individual page administrator for personal use
+on their own Facebook Pages. There is no public service offered to other
+users.</p>
+<p>Contact: <a href="mailto:nedc.tw@gmail.com">nedc.tw@gmail.com</a></p>
+
+<h2>2. Information We Access</h2>
+<p>To publish posts to the operator's own Facebook Pages, the App accesses
+the following via the Meta Graph API:</p>
+<ul>
+  <li><strong>Page Access Token</strong> for Pages where the operator is admin</li>
+  <li><strong>Page ID</strong> of those Pages</li>
+  <li><strong>Post insights</strong> (impressions, reach, engagement) for the
+    operator's own posts, used for internal performance tracking only</li>
+</ul>
+<p>The App does <strong>not</strong> collect, store, transmit, or process
+any data from end users (Page visitors, followers, or commenters). The App
+only publishes content authored by the operator.</p>
+
+<h2>3. How We Use Information</h2>
+<ul>
+  <li>Page Access Tokens are used solely to call the Graph API endpoint
+    that publishes posts to the operator's own Pages.</li>
+  <li>Page IDs identify which Page receives the post.</li>
+  <li>Insights are read for the operator's review only.</li>
+</ul>
+<p>No information is shared with third parties.<br>
+No information is used for advertising, profiling, or any purpose other
+than the operator's own publishing workflow.</p>
+
+<h2>4. Storage and Security</h2>
+<ul>
+  <li>Tokens are stored locally on the operator's machine and on a private
+    Cloudflare Worker secret store, with TLS in transit.</li>
+  <li>Tokens are never transmitted to any third party.</li>
+  <li>The App runs on infrastructure controlled by the operator
+    (their own machine, GitHub Actions, Cloudflare Workers).</li>
+</ul>
+
+<h2>5. Retention</h2>
+<p>Tokens are retained until the operator revokes them via Facebook
+account settings or removes them from local credentials files. Posts
+published by the App remain on Facebook subject to Facebook's own
+retention.</p>
+
+<h2>6. User Rights</h2>
+<p>Because the App does not process data from any end user, there are no
+end-user rights requests to handle. The Page admin can:</p>
+<ul>
+  <li>Revoke the App's access to their Pages at any time via Facebook
+    Account &gt; Apps and Websites</li>
+  <li>Delete posts published by the App via Facebook's standard interface</li>
+  <li>Delete local credentials files at any time</li>
+</ul>
+
+<h2>7. Data Deletion</h2>
+<p>To request deletion of any data the App may hold:</p>
+<ul>
+  <li>Email: <a href="mailto:nedc.tw@gmail.com">nedc.tw@gmail.com</a></li>
+  <li>Or: revoke the App from Facebook Account &gt; Settings &gt; Apps
+    and Websites, which immediately invalidates all tokens.</li>
+</ul>
+
+<h2>8. Changes</h2>
+<p>This policy may be updated. The "Last updated" date above will reflect
+the most recent revision.</p>
+</body>
+</html>
